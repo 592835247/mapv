@@ -9,7 +9,6 @@ import Category from "../utils/data-range/Category";
 import Choropleth from "../utils/data-range/Choropleth";
 import drawHeatmap from "../canvas/draw/heatmap";
 import drawArrow from "../canvas/draw/arrow";
-import drawClip from "../canvas/draw/clip";
 import drawSimple from "../canvas/draw/simple";
 import webglDrawSimple from "../webgl/draw/simple";
 import drawGrid from "../canvas/draw/grid";
@@ -168,9 +167,19 @@ class BaseLayer {
                 break;
             case 'icon':
                 drawIcon.draw(context, dataSet, self.options);
+                drawText.draw(context, dataSet, self.options);
+
                 break;
             case 'clip':
-                drawClip.draw(context, dataSet, self.options);
+                context.save();
+                context.fillStyle = self.options.fillStyle || 'rgba(0, 0, 0, 0.5)';
+                context.fillRect(0, 0, context.canvas.width, context.canvas.height);
+                drawSimple.draw(context, dataSet, self.options);
+                context.beginPath();
+                pathSimple.drawDataSet(context, dataSet, self.options);
+                context.clip();
+                clear(context);
+                context.restore();
                 break;
             default:
                 if (self.options.context == "webgl") {
