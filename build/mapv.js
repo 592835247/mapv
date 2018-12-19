@@ -4762,10 +4762,10 @@ Author:  (github.com/upphiminn)
                 if (this.options.methods) {
                     if (this.options.methods.click) {
                         map.setDefaultCursor("default");
-                        map.addEventListener('click', this.clickEvent);
+                        map.addEventListener('touchstart', this.clickEvent);
                     }
                     if (this.options.methods.mousemove) {
-                        map.addEventListener('mousemove', this.mousemoveEvent);
+                        map.addEventListener('touchmove', this.mousemoveEvent);
                     }
                 }
             }
@@ -4776,10 +4776,10 @@ Author:  (github.com/upphiminn)
 
                 if (this.options.methods) {
                     if (this.options.methods.click) {
-                        map.removeEventListener('click', this.clickEvent);
+                        map.removeEventListener('touchstart', this.clickEvent);
                     }
                     if (this.options.methods.mousemove) {
-                        map.removeEventListener('mousemove', this.mousemoveEvent);
+                        map.removeEventListener('touchmove', this.mousemoveEvent);
                     }
                 }
             }
@@ -4943,8 +4943,8 @@ Author:  (github.com/upphiminn)
         }, {
             key: "addAnimatorEvent",
             value: function addAnimatorEvent() {
-                this.map.addEventListener('movestart', this.animatorMovestartEvent.bind(this));
-                this.map.addEventListener('moveend', this.animatorMoveendEvent.bind(this));
+                this.map.addEventListener('touchmove', this.animatorMovestartEvent.bind(this));
+                this.map.addEventListener('touchend', this.animatorMoveendEvent.bind(this));
             }
         }, {
             key: "show",
