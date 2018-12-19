@@ -4941,8 +4941,8 @@ Author:  (github.com/upphiminn)
         }, {
             key: "addAnimatorEvent",
             value: function addAnimatorEvent() {
-                // this.map.addEventListener('touchmove', this.animatorMovestartEvent.bind(this));
-                // this.map.addEventListener('touchend', this.animatorMoveendEvent.bind(this));
+                this.map.addEventListener('touchmove', this.animatorMovestartEvent.bind(this));
+                this.map.addEventListener('touchend', this.animatorMoveendEvent.bind(this));
             }
         }, {
             key: "show",
