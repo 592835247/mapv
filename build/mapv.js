@@ -4283,8 +4283,6 @@ Author:  (github.com/upphiminn)
                         break;
                     case 'icon':
                         drawIcon.draw(context, dataSet, self.options);
-                        drawText.draw(context, dataSet, self.options);
-
                         break;
                     case 'clip':
                         context.save();

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c5a457-be09-46d7-b971-3a43c87ba2d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/openlayers-map/Layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/openlayers-map/Layer.js" afterDir="false" />
-    </list>
+    <list default="true" id="66c5a457-be09-46d7-b971-3a43c87ba2d3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,25 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mapv.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mapv.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/mapv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="4091" column="17" selection-start-line="4091" selection-start-column="17" selection-end-line="4091" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="4098" column="43" selection-start-line="4098" selection-start-column="39" selection-end-line="4098" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Layer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/openlayers-map/Layer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="304" column="40" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="290" column="34" selection-start-line="290" selection-start-column="29" selection-end-line="290" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -46,7 +38,7 @@
       <file leaf-file-name="amap-point-intensity.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-intensity.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="750">
               <caret line="50" column="34" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="34" />
             </state>
           </provider>
@@ -55,8 +47,8 @@
       <file leaf-file-name="BaseLayer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/BaseLayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4260">
-              <caret line="300" column="13" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,16 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/js/main.js">
+      <file leaf-file-name="rollup.config.3d.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rollup.config.3d.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="rollup.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rollup.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-288" />
           </provider>
         </entry>
       </file>
@@ -81,12 +77,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon</find>
       <find>getMapvEventMarkerIndex</find>
       <find>XR</find>
       <find>2</find>
       <find>eventPixel</find>
       <find>mapvDataPoints</find>
+      <find>methods</find>
+      <find>touchstart</find>
+      <find>click</find>
+      <find>addEventListener</find>
+      <find>icon</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -98,11 +98,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build/mapv.js" />
-        <option value="$PROJECT_DIR$/src/map/BaseLayer.js" />
         <option value="$PROJECT_DIR$/examples/baidu-map-point-icon.html" />
         <option value="$PROJECT_DIR$/examples/amap/amap-point-intensity.html" />
         <option value="$PROJECT_DIR$/src/map/openlayers-map/Layer.js" />
+        <option value="$PROJECT_DIR$/src/map/BaseLayer.js" />
+        <option value="$PROJECT_DIR$/build/mapv.js" />
       </list>
     </option>
   </component>
@@ -143,48 +143,7 @@
             <path>
               <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="mapv.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="amap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mapv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="openlayers-map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,27 +183,29 @@
       <updated>1544754511566</updated>
       <workItem from="1544754513496" duration="2742000" />
       <workItem from="1545119112446" duration="724000" />
+      <workItem from="1545185759786" duration="691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3466000" />
+    <option name="totallyTimeSpent" value="4157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28848484" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -262,13 +223,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/mapv.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61620">
+          <caret line="4091" column="17" selection-start-line="4091" selection-start-column="17" selection-end-line="4091" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-intensity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/BaseLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="300" column="13" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/openlayers-map/Layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4470">
+          <caret line="304" column="40" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/mapv.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61635">
           <caret line="4092" column="16" lean-forward="true" selection-start-line="4092" selection-start-column="16" selection-end-line="4092" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,11 +306,6 @@
         <state relative-caret-position="-457" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/mapv.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -328,19 +324,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/BaseLayer.js">
+    <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4260">
-          <caret line="300" column="13" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-intensity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="1065">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -349,37 +347,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/mapv.js">
+    <entry file="file://$PROJECT_DIR$/README_EN.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="4091" column="17" selection-start-line="4091" selection-start-column="17" selection-end-line="4091" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-836" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/rollup.config.3d.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/amap/amap-point-intensity.html">
+    <entry file="file://$PROJECT_DIR$/rollup.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="34" />
-        </state>
+        <state relative-caret-position="-288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/openlayers-map/Layer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="304" column="40" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+        <state relative-caret-position="165">
+          <caret line="290" column="34" selection-start-line="290" selection-start-column="29" selection-end-line="290" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/BaseLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/mapv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="4098" column="43" selection-start-line="4098" selection-start-column="39" selection-end-line="4098" selection-end-column="43" />
         </state>
       </provider>
     </entry>
